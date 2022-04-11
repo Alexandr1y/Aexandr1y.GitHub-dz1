@@ -1,0 +1,58 @@
+
+
+*{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url(/foto/стена.jpg);
+color: aliceblue;
+}
+header{
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 4em;
+}
+.giv{
+    width: 50px;
+}
+     img{
+        
+         width: 500px;
+         background: center;
+     }
+     .inst{
+         color: aqua;
+     }
+     .footer{
+         font-size: 2em;
+        color: rgba(165, 149, 149, 0.992);
+     }
+
+@media screen and(max-width:1280px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    
+}
+@media screen and(max-width:1024px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    
+}
+@media screen and(max-width:768px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    
+}
