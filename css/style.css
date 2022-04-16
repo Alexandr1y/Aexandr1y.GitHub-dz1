@@ -1,58 +1,175 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap');
 *{
-    text-align: center;
+   
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
-    
+
+   
 }
 body{
-    background: url(/foto/стена.jpg);
-color: aliceblue;
+    font-size: 18px;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: montserrat ,arial, sans-serif;
 }
-header{
+.container{
+    width: 943px;
+    margin: 0 auto;
+    
+}
+.ru-eng{
+background: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: right;
+    border: 10px ;
+    display:flex;
+    justify-content:space-around;
+   
+}
+
+
+
+
+li{
+
+    font-size: 25px;
+}
+.UX{
+text-align: center;
+width: 155px;
+height: 44px;
+}
+.Denis{
+    text-align: left;
+}
+
+.Denis{
+    width: 155px;
+font-family: 'Gilroy-Bold';
+font-size: 47.3392px;
+line-height: 59px;
+
+}
+
+.foto-1{
+  background: center;
+    text-align: center;
+    width: 943px;
+    height: 387px;
+
+}
+.blok-2{
+   background-color: rgba(221, 221, 223, 0.466); 
+   width: 943px;
+    margin: 0 auto;
+    height: 506px;
+    text-align: center;
+
+}
+.block_row{
+    display: flex;
+    text-align: right;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.skills{
     text-align: center;
 }
 
-p {
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-}
-h3{
-    font-size: 4em;
-}
-.giv{
-    width: 50px;
-}
-     img{
-        
-         width: 500px;
-         background: center;
-     }
-     .inst{
-         color: aqua;
-     }
-     .footer{
-         font-size: 2em;
-        color: rgba(165, 149, 149, 0.992);
-     }
 
-@media screen and(max-width:1280px) {
-    .flex-container{
-        flex-direction: column;
-    }
+.blok-3{
     
+    display: flex;
+    justify-content:space-between ;
 }
-@media screen and(max-width:1024px) {
-    .flex-container{
-        flex-direction: column;
-    }
+.after_effects{
+ width: 166px;
+ height: 206px;   
+}
+.portfolio{
+    text-align: center;
+}
+.contocts{
+    text-align: center;
+}
+.Want{
+    text-align: center;
+}
+
+    /*
+   background-color: black; 
+    width: 166px; 
+    height: 38px;
+    */
+
+
+.container-2{
+   
+    width: 342px;
+    margin: 0 auto;
     
+    text-align: center;
+    background: center;
 }
-@media screen and(max-width:768px) {
-    .flex-container{
-        flex-direction: column;
-    }
+
+.silka{
+    max-width: 166px;
+        display: flex;
+        text-align: center;
+        justify-content:center;
+        align-items: center;
+        min-height: 60px;
+        padding: 0px 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 18px;
+        border-radius: 10px;
+        position: relative;
+        top: 0;
+        }
+        
+        
+        .silka{
+            
+            width: 122px;
+            height: 23px;
+            background: center;
+            max-width: 166px;
+        color: #fff;
+        background-color: #000000;
+        box-shadow: 0 5px 0px #000000;
+        transition-duration: 0s;
+        }
+        
+        .silka:hover{
+            background: center;
+            
+        top: 2px;
+        box-shadow: 0 3px 0px #000000;
+        background-color: #b51818;
+        }
+.giv{
+    background: center;
+    text-align: center;
+}
+.sent{
+    text-align: center;
+}
+
+
     
-}
+
+
+
+
+
+
